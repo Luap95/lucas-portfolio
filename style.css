@@ -94,3 +94,18 @@ h3 {
     list-style-type: disc;
     padding-left: 1em;
 }
+.lista-contatos {
+    margin: 3% 0 0 30%;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+.lista-contatos li {
+    padding: 1% 0;
+}
+.icone {
+    width: 30px;
+    height: 30px;
+}
+a {
+    color: #FFFFFF;
+}
