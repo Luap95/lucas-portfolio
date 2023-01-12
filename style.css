@@ -66,3 +66,31 @@ p {
     color: #FFFFFF;
     text-align: justify;
 }
+strong {
+    color:#FF3E78
+}
+.habilidades {
+    margin: 10% 0;
+}
+h2 {
+    text-align: center;
+}
+h3 {
+    font-size: 30px;
+    color:#38B6FF
+}
+.hard-skills {
+    display: inline-block;
+    vertical-align: top;
+    margin: 3% 0 0 30%;
+}
+.soft-skills {
+    display: inline-block;
+    margin: 3% 0 0 10%;
+}
+.lista {
+    font-size: 20px;
+    color: #FFFFFF;
+    list-style-type: disc;
+    padding-left: 1em;
+}
