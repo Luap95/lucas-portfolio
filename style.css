@@ -113,7 +113,21 @@ h3 {
     width: 30px;
     height: 30px;
 }
- /*Projetos*/
- .projetos img {
-    width: 30%;
+ /*Projetos*/ 
+.projetos-dev {
+    margin: 10% 0;
+}
+.projetos-dev a {
+     display: inline-block;
+     width: 30%
  }
+.projetos-dev img {
+    width: 90%;
+    margin:0 0 3% 0;
+ }
+.projetos {
+     display: inline-block;
+     width: 50%;
+     vertical-align: top;
+ }
+
