@@ -113,3 +113,7 @@ h3 {
     width: 30px;
     height: 30px;
 }
+ /*Projetos*/
+ .projetos img {
+    width: 30%;
+ }
