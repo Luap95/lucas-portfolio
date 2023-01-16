@@ -167,7 +167,7 @@ h3 {
         font-size: 20px;
     }
     .menu {
-        background: #393636;
+        background: rgba(57, 54, 54, 90%);
         position: absolute;
         width: 95%;
         display: none;
@@ -212,5 +212,11 @@ h3 {
         width: auto;
         margin: 0;
         padding: 3%;
+    }
+
+    .soft-skills {
+        display: inline-block;
+        vertical-align: top;
+        margin: 3% 0 0 30%;
     }
 }
