@@ -33,6 +33,9 @@ body {
 .menu-responsivo {
     display: none;
 }
+.fecha-menu {
+    display: none;
+}
 .menu li {
     display: inline;
     text-transform: uppercase;
@@ -149,7 +152,7 @@ h3 {
     width: 50%
  }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 600px) {
     main, .cabecalho, .menu {
         width: auto;
         padding: 3%;
@@ -193,5 +196,21 @@ h3 {
         border: none;
         left: 86%;
         top: 1.2%
+    }
+    h2 {
+        font-size: 35px;
+    }
+    .foto {
+        display: inline;
+        margin: 0;
+    }
+    .foto-perfil{
+        width: 40%;
+        margin: 0 30%;
+    }
+    .sobre-mim {
+        width: auto;
+        margin: 0;
+        padding: 3%;
     }
 }
