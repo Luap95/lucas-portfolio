@@ -30,6 +30,9 @@ body {
 
     /*background: yellow;*/
 }
+.menu-responsivo {
+    display: none;
+}
 .menu li {
     display: inline;
     text-transform: uppercase;
@@ -146,4 +149,49 @@ h3 {
     width: 50%
  }
 
-
+@media screen and (max-width: 900px) {
+    main, .cabecalho, .menu {
+        width: auto;
+        padding: 3%;
+    }
+    .cabecalho {
+        position: static;
+    }
+    .titulo-principal {
+        font-size: 25px;
+    }
+    .profissao {
+        font-size: 20px;
+    }
+    .menu {
+        background: #393636;
+        position: absolute;
+        width: 95%;
+        display: none;
+        top: 8%;
+        right: 0%;
+    }
+    .menu li {
+        display: block;
+    }
+    .menu-responsivo{
+        display: inline-block;
+        position: absolute;
+        background-color: transparent;
+        color: #FF3E78;
+        font-size: 30px;
+        border: none;
+        left: 85%;
+        top: 1%
+    }
+    .fecha-menu {
+        display: none;
+        position: absolute;
+        background-color: transparent;
+        color: #FF3E78;
+        font-size: 30px;
+        border: none;
+        left: 86%;
+        top: 1.2%
+    }
+}
