@@ -144,6 +144,9 @@ h3 {
  .curso a {
     color:#FFFFFF;
  }
+ .curso li {
+    padding: 0 0 2%;
+ }
  /*Experiências*/
  .exp-prof{
     margin: 10% 0 0 0;
@@ -236,6 +239,15 @@ h3 {
         display: block;
         width: auto;
         margin: 0 0 5% 5%;
-        order: 1;
-      }
+    }
+
+    /*Formação*/
+    .curso {
+        width: auto;
+        margin: 0;
+        padding: 3%;
+    }
+    .curso li {
+        padding: 0 0 3%;
+     }
 }
