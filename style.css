@@ -151,6 +151,9 @@ h3 {
  .exp-prof{
     margin: 10% 0 0 0;
  }
+ .exp-prof li {
+    padding: 0 0 2%;
+ }
  .competencias {
     width: 50%
  }
@@ -249,5 +252,17 @@ h3 {
     }
     .curso li {
         padding: 0 0 3%;
-     }
+    }
+    /*Experiências*/
+    .exp-prof {
+        margin: 0;
+        padding: 3%;
+    }
+    .exp-prof li {
+        padding: 0 0 3%;
+    }
+    .competencias {
+        width: auto;
+        padding-top: 3%;
+    }
 }
