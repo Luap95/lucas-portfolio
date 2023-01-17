@@ -201,6 +201,7 @@ h3 {
     h2 {
         font-size: 35px;
     }
+    /*home*/
     .foto {
         display: inline;
         margin: 0;
@@ -225,4 +226,16 @@ h3 {
         padding: 3%;
         font-size: 18px;
     }
+    /*Projetos*/
+    .projetos-dev a {
+        display: inline;
+        width: auto;
+        margin: 0 5%;
+    }
+    .projetos {
+        display: block;
+        width: auto;
+        margin: 0 0 5% 5%;
+        order: 1;
+      }
 }
