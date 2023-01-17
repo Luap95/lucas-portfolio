@@ -176,6 +176,7 @@ h3 {
     }
     .menu li {
         display: block;
+        margin-top: 3%;
     }
     .menu-responsivo{
         display: inline-block;
@@ -218,5 +219,10 @@ h3 {
         display: inline-block;
         vertical-align: top;
         margin: 3% 0 0 30%;
+    }
+    .lista-contatos {
+        margin: 0;
+        padding: 3%;
+        font-size: 18px;
     }
 }
