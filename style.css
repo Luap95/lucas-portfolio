@@ -42,6 +42,9 @@ body {
     font-size: 22px;
     
 }
+a {
+    color: #FFFFFF;
+}
 .menu a {
     color: #38B6FF;
     text-decoration: none;
