@@ -123,23 +123,13 @@ h3 {
     height: 30px;
 }
  /*Projetos*/ 
-.projetos-dev {
-    margin: 10% 0;
+.content-list-container ul{
+    width: 50%;
 }
-.projetos-dev a {
-     display: inline-block;
-     width: 30%
- }
-.projetos-dev img {
-    width: 90%;
-    margin:0 0 3% 0;
- }
-.projetos {
-     display: inline-block;
-     width: 35%;
-     vertical-align: top;
-     margin: 0 30% 1% 0;
- }
+.projetos img {
+    width: 50%;
+    margin: 10px 0;
+}
  /*Formação*/
  .curso {
     margin: 10% 0 0 0;

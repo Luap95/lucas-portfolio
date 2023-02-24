@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lucas de Almeida Pereira</title>
-    <script type="text/javascript" src="script.js"></script>
+    <script src="script.js"></script>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -13,7 +13,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600;700&display=swap" 
     rel="stylesheet">
 </head>
-<body>
+<body onload="buscarRepo()">
     <heder>
         <div class="cabecalho">
             <h1 class="titulo-principal">Lucas de Almeida Pereira</h1>
@@ -32,80 +32,19 @@
     </heder>
     <main>
         <h2>O que venho desenvolvendo</h2>
-        <section class="projetos-dev">
-            
-            <a href="https://github.com/Luap95/harmoneasy" target="_blank">
-                <img src="https://iframely.net/O3Tp5KF/thumbnail">
-            </a>
-        
-        <div class="projetos">
-            
-            <h3>Projeto: Sintaxe - Variaveis e fluxos</h3>
-            <p>Descrição: Exercícios de sintaxe basica da linguagem Java</p>
-            <p>Linguagem:  Java</p>
-        </div>
-            <a href="https://github.com/Luap95/sintaxe-variaveis-e-fluxo" target="_blank">
-                    <img src="https://iframely.net/Kvk42pu/thumbnail">
-                </a>
-            
-            <div class="projetos">
-                
-                <h3>Projeto: Harmoneasy</h3>
-                <p>Descrição: Gerador de escalas musicais.</p>
-                <p>Site: <a href="https://luap95.github.io/harmoneasy/" target="_blank">Harmoneasy</a></p>
-                <p>Linguagem:  HTML, CSS, JavaScript</p>
+        <section class="lista-projetos">
+            <div id="projetos" class="projetos">
+                <div class="content-list">
+                    <div class="content-list-container">
+                        <ul></ul>
+                    </div>
+                </div>
             </div>
-            <a href="https://github.com/Luap95/alura-curso-git" target="_blank">
-                    <img src="https://iframely.net/api/thumbnail?url=https%3A%2F%2Fgithub.com%2FLuap95%2Falura-curso-git&api_key=22046443d087be8940f3c78ad638ec36">
-                </a>
-            
-            <div class="projetos">
-                
-                <h3>Projeto: Git e GitHub</h3>
-                <p>Descrição: Exercícios de Git e GitHub, 
-                por exemplo, criação de repositórios, commit, 
-                servidor e branch.
-                </p>
-                <p>Linguagem:  HTML</p>
-            </div>
-            <a href="https://github.com/Luap95/barbearia-alura" target="_blank">
-                    <img src="https://iframely.net/api/thumbnail?url=https%3A%2F%2Fgithub.com%2FLuap95%2Fbarbearia-alura&api_key=22046443d087be8940f3c78ad638ec36">
-                </a>
-            <div class="projetos">
-                
-                <h3>Projeto: Barbearia Alura</h3>
-                <p>Descrição: Projeto do curso de HTML5 e CSS3, 
-                    onde foi desenvolvido um site de uma barbearia.
-                    </p>
-                    <p>Linguagem:  HTML, CSS</p>
-            </div>
-            <a href="https://github.com/Luap95/calculadora" target="_blank">
-                    <img src="https://iframely.net/api/thumbnail?url=https%3A%2F%2Fgithub.com%2FLuap95%2Fcalculadora&api_key=22046443d087be8940f3c78ad638ec36">
-                </a>
-            <div class="projetos">
-                
-                <h3>Projeto: Calculadora</h3>
-                <p>Descrição: Calculadora de operações simples.</p> 
-                    <p>Linguagem:  HTML, CSS, JavaScript</p>
-            </div>
-            <a href="https://github.com/Luap95/challenge-one-decodificador" target="_blank">
-                    <img src="https://iframely.net/api/thumbnail?url=https%3A%2F%2Fgithub.com%2FLuap95%2Fchallenge-one-decodificador&api_key=22046443d087be8940f3c78ad638ec36">
-                </a>
-            <div class="projetos">
-                <h3>Projeto: Codificador e Decodificador</h3>
-                <p>Descrição: 1° Challenge do programa Oracle Next Education. Criptografador de texto.</p>
-                    <p>Linguagem:  HTML, CSS, JavaScript</p>
-            </div>
-            <a href="https://github.com/Luap95/logica-de-programacao" target="_blank">
-                    <img src="https://iframely.net/api/thumbnail?url=https%3A%2F%2Fgithub.com%2FLuap95%2Flogica-de-programacao&api_key=22046443d087be8940f3c78ad638ec36">
-                </a>            
-                <div class="projetos">
-                <h3>Projeto: Lógica de programação</h3>
-                <p>Descrição: Exercícios de lógica de programação.</p>
-                    <p>Linguagem:  HTML, JavaScript</p>
-            </div>
-            
+
         </section>
+    
+        <script src="site.js"></script> 
+  
     </main>
 </body>
 </html>
